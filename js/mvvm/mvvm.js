@@ -2,7 +2,7 @@
 相关于Vue的构造函数
  */
 function MVVM(options) {
-  // 将选项对象保存到vm
+  // 将配置对象保存到vm
   this.$options = options;
   // 将data对象保存到vm和datq变量中
   var data = this._data = this.$options.data;
